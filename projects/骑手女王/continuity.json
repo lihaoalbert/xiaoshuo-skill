@@ -1,0 +1,589 @@
+{
+  "project": "骑手女王",
+  "last_updated": "2026-05-29",
+  "timeline_base": {
+    "start": "2026夏",
+    "current_day": 16,
+    "current_episode": 16
+  },
+  "characters": {
+    "苏冉": {
+      "known": [
+        "全部前史"
+      ],
+      "unknown": [],
+      "last_updated_ep": 8
+    },
+    "方小棠": {
+      "known": [
+        "苏冉全部前史(Ep8坦白)"
+      ],
+      "unknown": [],
+      "last_updated_ep": 8
+    },
+    "秦朗": {
+      "known": [
+        "苏冉被不正常的人搞过(Ep6推测)"
+      ],
+      "unknown": [
+        "苏冉具体前职业"
+      ],
+      "last_updated_ep": 6
+    },
+    "老王": {
+      "known": [
+        "苏冉不简单"
+      ],
+      "unknown": [
+        "苏冉具体前职业"
+      ],
+      "last_updated_ep": 9
+    },
+    "何仔": {
+      "known": [
+        "苏冉很厉害"
+      ],
+      "unknown": [
+        "苏冉任何前史"
+      ],
+      "last_updated_ep": 4
+    },
+    "胖虎": {
+      "known": [
+        "苏冉不是普通人"
+      ],
+      "unknown": [
+        "苏冉具体前职业"
+      ],
+      "last_updated_ep": 3
+    },
+    "苏冉妈妈": {
+      "known": [
+        "女儿做咨询(谎言)"
+      ],
+      "unknown": [
+        "女儿在送外卖"
+      ],
+      "last_updated_ep": 1
+    },
+    "老周": {
+      "known": [
+        "苏冉全部真相+现状"
+      ],
+      "unknown": [],
+      "last_updated_ep": 8
+    }
+  },
+  "foreshadowing": [
+    {
+      "id": "F001",
+      "name": "妈妈发现真相",
+      "description": "苏冉妈妈发现女儿实际在送外卖",
+      "established_ep": 1,
+      "planned_reveal_ep": "21-22",
+      "progressions": [
+        {
+          "ep": 1,
+          "event": "苏冉在电话中对妈妈撒谎"
+        },
+        {
+          "ep": 12,
+          "event": "苏冉跟何仔提到妈妈的谎言"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "F002",
+      "name": "苏冉最后任务的完整真相",
+      "established_ep": 1,
+      "planned_reveal_ep": "S1高潮",
+      "progressions": [
+        {
+          "ep": 1,
+          "event": "内心OS: 那张桌子我再也回不去了"
+        },
+        {
+          "ep": 8,
+          "event": "向方小棠坦白: 谈判组长→背锅"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "F003",
+      "name": "秦朗手腕伤",
+      "established_ep": 1,
+      "planned_reveal_ep": "待定",
+      "progressions": [],
+      "status": "stalled"
+    },
+    {
+      "id": "F004",
+      "name": "多人行威胁升级",
+      "established_ep": 7,
+      "planned_reveal_ep": "S1后期",
+      "progressions": [
+        {
+          "ep": 7,
+          "event": "何仔带来多人行招聘消息"
+        },
+        {
+          "ep": 10,
+          "event": "小马挑衅"
+        },
+        {
+          "ep": 11,
+          "event": "假订单偷拍方小棠"
+        },
+        {
+          "ep": 15,
+          "event": "程星亲自挖苏冉"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "F005",
+      "name": "老周邀请苏冉归队",
+      "established_ep": 8,
+      "planned_reveal_ep": "S2",
+      "progressions": [
+        {
+          "ep": 8,
+          "event": "老周说上面换人了, 可以重新审"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "F006",
+      "name": "培训手册第九条",
+      "established_ep": 1,
+      "planned_reveal_ep": "待定",
+      "progressions": [
+        {
+          "ep": 1,
+          "event": "首次提及"
+        },
+        {
+          "ep": 4,
+          "event": "何仔无师自通callback"
+        }
+      ],
+      "status": "active"
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "您有新的订单",
+      "day": 1,
+      "main_plot": "林小姐离婚崩溃,苏冉谈判化解",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 2,
+      "title": "谈判对象五岁",
+      "day": 2,
+      "main_plot": "5岁豆豆,所有技巧被小孩逻辑击溃",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 3,
+      "title": "系统正在处理中",
+      "day": 3,
+      "main_plot": "AI派单错误,胖虎37秒解决",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 4,
+      "title": "差评威胁",
+      "day": 4,
+      "main_plot": "网红娜姐找茬,何仔直播反击",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 5,
+      "title": "翻译官",
+      "day": 5,
+      "main_plot": "方言误解,方小棠秀山方言破局",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 6,
+      "title": "正常人",
+      "day": 6,
+      "main_plot": "程序员太好心触发苏冉PTSD",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 7,
+      "title": "内部矛盾",
+      "day": 7,
+      "main_plot": "老王罚款新规,多人行招聘出现",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 8,
+      "title": "暴雨",
+      "day": 8,
+      "main_plot": "暴雨遇老周,三年首次对不起,向方小棠坦白",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 9,
+      "title": "越级谈判",
+      "day": 9,
+      "main_plot": "方案被驳回,朋友圈找到总监电话",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 10,
+      "title": "送餐对决",
+      "day": 10,
+      "main_plot": "小马挑衅,三单对决,秦朗换号相助",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 11,
+      "title": "陷阱",
+      "day": 11,
+      "main_plot": "多人行假订单偷拍方小棠,苏冉新闻发布会",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 12,
+      "title": "选择题",
+      "day": 12,
+      "main_plot": "何仔收到多人行offer,老王特批新岗位",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 13,
+      "title": "女王配送",
+      "day": 13,
+      "main_plot": "差异化服务上线,秦朗: 我可以不说话光站着",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 14,
+      "title": "诗的备注",
+      "day": 14,
+      "main_plot": "退休语文老师用外卖备注写诗给亡夫",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 15,
+      "title": "猎头",
+      "day": 15,
+      "main_plot": "程星亲自挖苏冉,三倍薪资,研究过她的案子",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    },
+    {
+      "ep": 16,
+      "title": "留下的人",
+      "day": 16,
+      "main_plot": "团队选择留下,女王配送正式上线",
+      "review": {
+        "character": "pass",
+        "comedy": "pass",
+        "structure": "pass",
+        "continuity": "pass",
+        "reader_avatar": "not_run"
+      },
+      "knowledge_changes": [],
+      "new_foreshadowing": [],
+      "props_injuries": [],
+      "relationship_changes": [],
+      "callbacks_established": [],
+      "callbacks_used": []
+    }
+  ],
+  "props": [
+    {
+      "name": "方小棠小腿擦伤",
+      "type": "injury",
+      "owner": "方小棠",
+      "established_ep": 1,
+      "last_seen_ep": 1,
+      "status": "healed"
+    },
+    {
+      "name": "胖虎剥花生",
+      "type": "running_gag",
+      "owner": "胖虎",
+      "established_ep": 3,
+      "last_seen_ep": 16,
+      "status": "active"
+    },
+    {
+      "name": "老王签名方案",
+      "type": "prop",
+      "owner": "老王",
+      "established_ep": 9,
+      "last_seen_ep": 9,
+      "status": "archived"
+    },
+    {
+      "name": "程星名片",
+      "type": "prop",
+      "owner": "苏冉",
+      "established_ep": 15,
+      "last_seen_ep": 16,
+      "status": "active"
+    },
+    {
+      "name": "女王配送海报",
+      "type": "prop",
+      "owner": "苏冉",
+      "established_ep": 13,
+      "last_seen_ep": 13,
+      "status": "active"
+    }
+  ],
+  "relationships": [
+    {
+      "pair": "苏冉×秦朗",
+      "type": "竞争→暧昧",
+      "milestones": [
+        {
+          "ep": 1,
+          "event": "秦朗首次注意苏冉(不错+更长注视)"
+        },
+        {
+          "ep": 2,
+          "event": "秦朗第一次说三句话"
+        },
+        {
+          "ep": 6,
+          "event": "秦朗精准洞察: 你以前是不是被不正常的人搞过"
+        },
+        {
+          "ep": 10,
+          "event": "秦朗首次主动帮助(换号)"
+        },
+        {
+          "ep": 16,
+          "event": "我没地方可去=面瘫式表白"
+        }
+      ]
+    },
+    {
+      "pair": "苏冉×方小棠",
+      "type": "闺蜜/师徒",
+      "milestones": [
+        {
+          "ep": 1,
+          "event": "闺蜜关系确立"
+        },
+        {
+          "ep": 5,
+          "event": "方小棠首次被认可"
+        },
+        {
+          "ep": 8,
+          "event": "苏冉坦白全部前史, 方小棠: 我跟你一起"
+        }
+      ]
+    },
+    {
+      "pair": "苏冉×老王",
+      "type": "上下级→合作者",
+      "milestones": [
+        {
+          "ep": 7,
+          "event": "苏冉帮老王改方案"
+        },
+        {
+          "ep": 9,
+          "event": "老王首次签名支持"
+        },
+        {
+          "ep": 13,
+          "event": "老王把苏冉名字写进总部文件"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Continuity Database",
+  "description": "Structured continuity tracking for a fiction project. Replaces markdown continuity-log.",
+  "type": "object",
+  "required": ["project", "timeline_base", "characters", "foreshadowing", "episodes"],
+  "properties": {
+    "project": {"type": "string"},
+    "last_updated": {"type": "string", "format": "date"},
+    "timeline_base": {
+      "type": "object",
+      "properties": {
+        "start": {"type": "string", "description": "Story start date"},
+        "current_day": {"type": "integer"},
+        "current_episode": {"type": "integer"}
+      }
+    },
+    "characters": {
+      "type": "object",
+      "description": "Character knowledge states — what each character knows NOW",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "known": {"type": "array", "items": {"type": "string"}},
+          "unknown": {"type": "array", "items": {"type": "string"}},
+          "last_updated_ep": {"type": "integer"}
+        }
+      }
+    },
+    "foreshadowing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "established_ep", "planned_reveal_ep"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "established_ep": {"type": "integer"},
+          "planned_reveal_ep": {"type": "string", "description": "Episode number or 'S2' etc."},
+          "progressions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ep": {"type": "integer"},
+                "event": {"type": "string"}
+              }
+            }
+          },
+          "status": {"type": "string", "enum": ["active", "stalled", "resolved", "abandoned"]}
+        }
+      }
+    },
+    "episodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ep", "title", "day", "review"],
+        "properties": {
+          "ep": {"type": "integer"},
+          "title": {"type": "string"},
+          "day": {"type": "integer"},
+          "main_plot": {"type": "string"},
+          "review": {
+            "type": "object",
+            "properties": {
+              "character": {"type": "string", "enum": ["pass", "pass_with_warnings", "fail"]},
+              "comedy": {"type": "string", "enum": ["pass", "pass_with_warnings", "fail"]},
+              "structure": {"type": "string", "enum": ["pass", "pass_with_warnings", "fail"]},
+              "continuity": {"type": "string", "enum": ["pass", "pass_with_warnings", "fail"]},
+              "reader_avatar": {"type": "string", "enum": ["pass", "pass_with_warnings", "fail", "not_run"]}
+            }
+          },
+          "knowledge_changes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "character": {"type": "string"},
+                "learned": {"type": "string"}
+              }
+            }
+          },
+          "new_foreshadowing": {"type": "array", "items": {"type": "string"}},
+          "props_injuries": {"type": "array", "items": {"type": "string"}},
+          "relationship_changes": {"type": "array", "items": {"type": "string"}},
+          "callbacks_established": {"type": "array", "items": {"type": "string"}},
+          "callbacks_used": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "props": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "type": {"type": "string", "enum": ["prop", "injury", "location", "running_gag"]},
+          "owner": {"type": "string"},
+          "established_ep": {"type": "integer"},
+          "last_seen_ep": {"type": "integer"},
+          "status": {"type": "string"}
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pair": {"type": "string", "description": "CharacterA × CharacterB"},
+          "type": {"type": "string"},
+          "milestones": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ep": {"type": "integer"},
+                "event": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
