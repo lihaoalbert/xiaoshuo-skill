@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Episode Review Report",
+  "type": "object",
+  "required": ["episode", "project", "reviewer", "verdict", "checks", "issues", "stats"],
+  "properties": {
+    "episode": {"type": "integer"},
+    "project": {"type": "string"},
+    "reviewer": {"type": "string", "enum": ["character", "comedy", "structure", "continuity"]},
+    "verdict": {"type": "string", "enum": ["pass", "pass_with_warnings", "fail"]},
+    "checks": {
+      "type": "object",
+      "description": "Reviewer-specific check results"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["severity", "location", "description"],
+        "properties": {
+          "severity": {"type": "string", "enum": ["high", "medium", "low"]},
+          "location": {"type": "string"},
+          "description": {"type": "string"},
+          "suggestion": {"type": "string"}
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "description": "Reviewer-specific metrics"
+    }
+  }
+}
